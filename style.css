@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://i1.faceprep.in/ProGrad/iron-man-bg.png");
+    background-size: cover;
+}
+div{
+    background-color: black;
+    color: white;
+    text-align:center ;
+    margin: 10%;
+    padding: 2%;
+    border-radius: 5%;
+    font-family: 'Grandstander', cursive;
+}
+div img {
+    width: 60%;
+    height: 40%;
+    margin: 5%;
+}
+p,h3.h2,h1{
+    padding: 2%;
+    font-family: 'Grandstander', cursive;
+}
+p{
+    padding: 10px 10%;
+    border-radius: 5%;
+}
+img:hover{
+cursor: pointer;
+box-shadow:0px 0px 5px 5px crimson ;
+transform: scale(1.05);
+}
+a{
+    color: tomato;
+}
+hr{
+    width: 60%;
+    margin: auto;
+}
